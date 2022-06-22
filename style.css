@@ -1,0 +1,280 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+}
+
+@font-face {
+    font-family: 'Droid Sans', arial;
+    src: url('https://fr.allfont.net/allfont.css?fonts=droid-sans');
+}
+
+@font-face {
+    font-family: 'Droid Serif', arial;
+    src: url('https://fr.allfont.net/allfont.css?fonts=droid-serif');
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: orange;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    width: auto;
+    background-image: url('assets/misc/grille.png');
+    background-repeat: repeat;
+    padding: 15px;
+}
+
+#logo {
+    padding-right: 50px;
+}
+
+#header_id {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_title {
+    font-size: 18px;
+    padding-right: 8px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+header ul li {
+    color: grey;
+    font-family: 'Droid serif', arial;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#hotels {
+    border-bottom: 5px solid orangered;
+}
+
+#restaurants {
+    border-bottom: 5px solid yellow;
+}
+
+#services {
+    border-bottom: 5px solid lightgreen;
+}
+
+#activites {
+    border-bottom: 5px solid blue;
+}
+
+#plus {
+    border-bottom: 5px solid violet;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1.5px solid lightgray;
+    border-bottom: 1.5px solid lightgray;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#under_video {
+    background-image: url('assets/misc/grille.png');
+    background-repeat: repeat;
+    text-align: center;
+    padding: 30px;
+    width: auto;
+}
+
+#under_video p {
+    font-family: 'Droid Serif', arial;
+    font-style: oblique;
+    color: grey;
+}
+
+.date {
+    font-family: 'Droid Serif', arial;
+    font-style: oblique;
+    color: grey;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+main {
+    width: auto;
+    border-top: 1.5px solid lightgray;
+    border-bottom: 1.5px solid lightgray;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#main_container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    grid-template-rows: 50% 50%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main_articles {
+    padding: 15px;
+}
+
+#left_block {
+    padding-top: 5px;
+}
+
+#right_block {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    width: auto;
+}
+
+#golf {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#golf img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#center_block {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+#fast_food {
+    padding-top: 20px;
+}
+
+#right-block {
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 100%;
+    height: 100%;
+}
+
+#commentaires {
+    padding-bottom: 25px
+}
+
+#pictures_block {
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 50% 50%;
+}
+
+.article_pictures {
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+footer {
+    width: auto;
+    background-image: url('assets/misc/grille.png');
+    background-repeat: repeat;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+footer li {
+    padding: 7px;
+    font-family: 'Droid-sans', 'arial';
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 25px;
+    font-family: 'Droid-sans', 'arial';
+}
+
+.foot_titles {
+    color: grey;
+    padding-bottom: 10px;
+}
+
+#footer_lists {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto
+}
+
+.foot_categories {
+    padding: 15px;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#lien_commentaires {
+    color: rgb(87, 87, 87);
+    text-decoration: underline;
+}
+
+#contact {
+    width: auto;
+    border-top: 1.5px solid lightgray;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+#contact_container {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#copyright {
+    font-size: 12px;
+    font-family: 'Droid-sans', 'Arial';
+}
+
+#copyright ul li {
+    display: inline-flex;
+    line-height: 25px;
+}
+
+#copyright ul li:not(:last-child)::after {
+    content: '|';
+    padding-left: 5px;
+    padding-right: 5px
+}
